@@ -70,3 +70,4 @@ alias clean="./gradlew clean"
 alias comp="git checkout master && git fetch upstream && git merge upstream/master"
 alias clean-branches="git branch | grep -v "master" | xargs git branch -D"
 alias push="git push"
+alias status='echo "$(git log --oneline --reverse)"'
