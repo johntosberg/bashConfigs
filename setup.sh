@@ -7,11 +7,10 @@
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install zsh
-brew cask install rambox
+brew cask install franz
 brew cask install spectacle
 brew cask install spotify
 brew cask install java
-brew cask install intellij-idea
 
 # Install oh-my-zsh via curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
